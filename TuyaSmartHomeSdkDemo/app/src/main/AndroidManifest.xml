@@ -37,12 +37,13 @@
         android:supportsRtl="false"
         android:theme="@style/AppTheme"
         tools:replace="android:allowBackup">
+        android:extractNativeLibs="false"
         <meta-data
             android:name="TUYA_SMART_APPKEY"
-            android:value="YOUR TUYA_SMART_APPKEY !" />
+            android:value="4u8eseumxy7n78c4pepc" />
         <meta-data
             android:name="TUYA_SMART_SECRET"
-            android:value="YOUR TUYA_SMART_SECRET !" />
+            android:value="tw79fgh4hx4n34hjssv95kuvk4ausxtp" />
 
         <activity
             android:name=".base.activity.SplashActivity"
