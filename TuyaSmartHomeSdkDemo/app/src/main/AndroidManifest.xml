@@ -2,14 +2,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="com.tuya.smart.android.demo">
-
     <!-- sdcard -->
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission
         android:name="android.permission.READ_PHONE_STATE"
-        android:required="false" />
-    <!-- 网络 -->
+        android:required="false" /> <!-- 网络 -->
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
     <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
@@ -20,12 +18,10 @@
         android:required="false" />
     <uses-permission
         android:name="android.permission.WAKE_LOCK"
-        android:required="false" />
-    <!-- added from 2.7.2 -->
+        android:required="false" /> <!-- added from 2.7.2 -->
     <uses-permission
         android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE"
-        android:required="false" />
-    <!-- camera need -->
+        android:required="false" /> <!-- camera need -->
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
 
     <application
@@ -37,7 +33,7 @@
         android:supportsRtl="false"
         android:theme="@style/AppTheme"
         tools:replace="android:allowBackup">
-        android:extractNativeLibs="false"
+
         <meta-data
             android:name="TUYA_SMART_APPKEY"
             android:value="4u8eseumxy7n78c4pepc" />
@@ -76,7 +72,6 @@
             android:screenOrientation="portrait"
             android:theme="@style/Splash.Theme"
             android:windowSoftInputMode="adjustPan|stateHidden" />
-
         <activity
             android:name=".login.activity.QRCodeLoginActivity"
             android:screenOrientation="portrait"
@@ -216,15 +211,14 @@
         <activity
             android:name=".shortcut.ShortcutOperateDeviceActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/Default_Public_Theme" />
-        <!--  camera module -->
+            android:theme="@style/Default_Public_Theme" /> <!-- camera module -->
         <activity
             android:name=".camera.AlarmDetectionActivity"
             android:screenOrientation="portrait" />
         <activity
             android:name=".camera.CameraCloudStorageActivity"
             android:screenOrientation="portrait" />
-        <activity android:name=".camera.CameraCloudVideoActivity"></activity>
+        <activity android:name=".camera.CameraCloudVideoActivity" />
         <activity
             android:name=".camera.CameraPanelActivity"
             android:screenOrientation="portrait" />
@@ -233,7 +227,6 @@
             android:screenOrientation="portrait" />
         <activity android:name=".camera.CameraSettingActivity" />
         <activity android:name=".camera.QrCodeConfigActivity" />
-        <!--  camera module -->
     </application>
 
 </manifest>

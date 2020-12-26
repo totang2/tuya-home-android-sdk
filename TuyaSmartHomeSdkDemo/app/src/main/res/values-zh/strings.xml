@@ -13,7 +13,8 @@
     <string name="OnlineControl">在线</string>
     <string name="device_state">设备状态：</string>
     <string name="action_settings">设置</string>
-
+    <string name="photo">照片</string>
+    <string name="love">爆燈</string>
     <!-- 通用 -->
     <string name="Confirm">确认</string>
     <string name="at_login_sns">社交账号登录</string>
@@ -189,7 +190,7 @@
     <string name="add_new_user_tip">添加新成员使用智能设备</string>
     <string name="add_next_device">再添加一个</string>
     <string name="ap_mode">热点模式</string>
-    <string name="app_name">涂鸦测试</string>
+    <string name="app_name">爆灯</string>
     <string name="bind_device_cancel">否</string>
     <string name="bind_device_confirm">是</string>
     <string name="bind_device_failure"><![CDATA[<font color="#FF5800">查看可能失败的原因</font>]]></string>

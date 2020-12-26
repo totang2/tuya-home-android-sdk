@@ -10,7 +10,7 @@
         <item name="colorAccent">@color/color_accent</item>
 
         <item name="android:textColorPrimary">@color/white</item>
-        <item name="android:windowBackground">@drawable/ty_pre</item>
+        <item name="android:windowBackground">@drawable/app_bg</item>
 
 
         <item name="android:windowContentOverlay">@android:color/transparent</item>
@@ -285,7 +285,7 @@
         <item name="app_bg_color">@color/color_ff5800</item>
     </style>
     <style name="Splash.Theme" parent="Default_Public_Theme">
-        <item name="android:windowBackground">@drawable/ty_pre</item>
+        <item name="android:windowBackground">@drawable/app_bg</item>
     </style>
     <!-- 分割线1px -->
     <style name="TY_SingleLine_Normal">

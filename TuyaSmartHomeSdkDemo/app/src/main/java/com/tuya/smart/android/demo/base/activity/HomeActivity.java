@@ -12,6 +12,7 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.tuya.smart.android.common.utils.L;
 import com.tuya.smart.android.demo.R;
 import com.tuya.smart.android.demo.base.presenter.HomePresenter;
 import com.tuya.smart.android.demo.base.utils.ActivityUtils;
@@ -115,7 +116,11 @@ public class HomeActivity extends BaseActivity implements IHomeView {
             } else if (v.getId() == R.id.tv_home_center || v.getId() == R.id.iv_home_center) {
                 mHomePresenter.showPersonalCenterPage();
             } else if (v.getId() == R.id.tv_home_my_scene || v.getId() == R.id.iv_my_scene) {
-                mHomePresenter.showScene();
+                //mHomePresenter.showScene();
+                //mHomePresenter.showPhoto();
+                L.d(TAG, "View.OnClickListener tv_home_my_scene PHOTO");
+
+                mHomePresenter.showPhoto();
             }
         }
     };
@@ -184,7 +189,7 @@ public class HomeActivity extends BaseActivity implements IHomeView {
                 mIvHomeCenter.setImageDrawable(VectorDrawable.getDrawable(TuyaSdk.getApplication(), R.drawable.ty_home_center_selected));
                 mFragmentContainer.setCurrentItem(idToPosition(id), true);
                 break;
-            case HomePresenter.TAB_SCENE:
+            case HomePresenter.TAB_PHOTO://TAB_SCENE:
                 mTvHomeScene.setTextColor(mFuncBarTextSelectColor);
                 mIvHomeScene.setColorFilter(mFuncBarTextSelectColor);
                 mIvHomeScene.setImageResource(R.drawable.my_scene);
