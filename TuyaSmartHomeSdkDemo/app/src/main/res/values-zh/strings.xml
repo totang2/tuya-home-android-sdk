@@ -15,6 +15,7 @@
     <string name="action_settings">设置</string>
     <string name="photo">照片</string>
     <string name="love">爆燈</string>
+    <string name="dislike">不喜歡</string>
     <!-- 通用 -->
     <string name="Confirm">确认</string>
     <string name="at_login_sns">社交账号登录</string>

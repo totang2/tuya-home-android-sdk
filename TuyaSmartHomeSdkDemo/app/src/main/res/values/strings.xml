@@ -21,6 +21,7 @@
     <string name="IntranetControl">Online-Intranet</string>
     <string name="photo">Photo</string>
     <string name="love">love</string>
+    <string name="dislike">dislike</string>
     <!-- 通用 -->
     <string name="OnlineControl">Online</string>
     <string name="Confirm">Confirm</string>

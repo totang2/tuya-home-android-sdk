@@ -27,10 +27,12 @@ public class LampPresenter extends BasePresenter implements ILightListener {
 
     public LampPresenter(Activity activity, ILampView view, String devId) {
         mView = view;
-        mLampOperationColorFactory = new LampOperationColorFactory(activity, mView);
+
         mLightDevice = new TuyaLightDevice(devId);
         mLightDevice.registerLightListener(this);
+
         updateLampSwitchStatus(mLightDevice.getLightDataPoint());
+        mLampOperationColorFactory = new LampOperationColorFactory(activity, mView);
     }
 
     private void startCloseLamp() {
@@ -108,7 +110,8 @@ public class LampPresenter extends BasePresenter implements ILightListener {
             if (isOpen) {
                 mView.showLampView();
                 mView.showOperationView();
-                mLampOperationColorFactory.showOperationView();
+
+                //mLampOperationColorFactory.showOperationView();
             } else {
                 mView.hideLampView();
             }
@@ -128,12 +131,13 @@ public class LampPresenter extends BasePresenter implements ILightListener {
 
 
     public void hideOperation() {
-        mLampOperationColorFactory.hideOperationView();
+
+        //mLampOperationColorFactory.hideOperationView();
     }
 
 
     private void updateLampView(RgbBean bean) {
-        mLampOperationColorFactory.updateOperationView(bean);
+        //mLampOperationColorFactory.updateOperationView(bean);
     }
 
 

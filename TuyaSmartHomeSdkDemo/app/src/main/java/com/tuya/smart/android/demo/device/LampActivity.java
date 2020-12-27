@@ -6,6 +6,7 @@ import android.view.animation.Animation;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.tuya.smart.android.common.utils.L;
 import com.tuya.smart.android.demo.R;
 import com.tuya.smart.android.demo.base.activity.BaseActivity;
 import com.tuya.smart.android.demo.base.bean.ColorBean;
@@ -59,6 +60,7 @@ public class LampActivity extends BaseActivity implements ILampView {
     }
 
     protected void initPresenter() {
+        L.d("yuan INTENT_DEVID", getIntent().getStringExtra(SwitchActivity.INTENT_DEVID));
         mLampPresenter = new LampPresenter(this, this, getIntent().getStringExtra(SwitchActivity.INTENT_DEVID));
     }
 
