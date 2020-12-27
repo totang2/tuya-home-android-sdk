@@ -2,7 +2,20 @@
 
 [![CircleCI](https://circleci.com/gh/TuyaInc/tuyasmart_home_android_sdk/tree/master.svg?style=svg)](https://circleci.com/gh/TuyaInc/tuyasmart_home_android_sdk/tree/master)  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)[![version](https://img.shields.io/badge/release-3.20.0-brightgreen)](https://tuyainc.github.io/tuyasmart_home_android_sdk_doc/zh-hans/resource/Update_Log.html)[![version](https://img.shields.io/badge/docs-brightgreen)](https://tuyainc.github.io/tuyasmart_home_android_sdk_doc/)
 
+本app可用於相親場景， 或者服務行業
+項目處於初始階段，將添加更多功能， 包括但不限於：
+- 添加接口從第三方獲取女神照片和信息
+- 實時與女神通信
+...
+
+
 ## 功能概述
+
+項目基於tuya lignt demo（feature/lamp_demo), 用來熟悉tuya api, 包含以下功能
+
+- 展示女神照片
+- 鄧的控制， 用戶選擇“喜歡” 或者“不喜歡”， 只能燈隨著點亮或者熄滅
+- 鄧的控制， 用戶選擇喜歡程度， 鄧的顔色，亮度改變
 
 涂鸦智能APP SDK提供了与硬件设备、涂鸦云通讯的接口封装，加速应用开发过程，
 
