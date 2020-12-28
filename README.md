@@ -1,4 +1,9 @@
-#### Note: This repository is inherited from the [old Tuya Github repository](https://github.com/TuyaInc/tuyasmart_home_android_sdk), which will be deprecated soon. Please use this repository for Tuya SDK development instead. For changing the existing remote repository URL, please check this [tutorial]( https://docs.github.com/en/free-pro-team@latest/github/using-git/changing-a-remotes-url).
+#### Note: tuya
+This project is developed using Tuya App SDK, which enables you to quickly develop branded apps connecting and controlling smart scenarios of many devices.
+
+For more information, please check [Tuya Developer Website](https://developer.tuya.com/en/docs/iot/app-development/sdk-development/app-sdk-instruction?id=K9kjstc7t376p).
+
+please swtich to branch feature/lamp_demo_yuan to continue work...
 
 ## Tuya Smart Android SDK
 
