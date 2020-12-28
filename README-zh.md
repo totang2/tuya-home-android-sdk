@@ -2,6 +2,7 @@
 
 [![CircleCI](https://circleci.com/gh/TuyaInc/tuyasmart_home_android_sdk/tree/master.svg?style=svg)](https://circleci.com/gh/TuyaInc/tuyasmart_home_android_sdk/tree/master)  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)[![version](https://img.shields.io/badge/release-3.20.0-brightgreen)](https://tuyainc.github.io/tuyasmart_home_android_sdk_doc/zh-hans/resource/Update_Log.html)[![version](https://img.shields.io/badge/docs-brightgreen)](https://tuyainc.github.io/tuyasmart_home_android_sdk_doc/)
 
+# 鄧控制demo 請切換到 feature/lamp_demo_yuan branch
 ## 功能概述
 
 涂鸦智能APP SDK提供了与硬件设备、涂鸦云通讯的接口封装，加速应用开发过程，
