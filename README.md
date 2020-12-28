@@ -3,7 +3,7 @@ This project is developed using Tuya App SDK, which enables you to quickly devel
 
 For more information, please check [Tuya Developer Website](https://developer.tuya.com/en/docs/iot/app-development/sdk-development/app-sdk-instruction?id=K9kjstc7t376p).
 
-please swtich to branch feature/lamp_demo_yuan to continue work...
+***please swtich to branch feature/lamp_demo_yuan to continue work...***
 
 ## Tuya Smart Android SDK
 
